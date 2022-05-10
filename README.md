@@ -101,19 +101,19 @@ SHOW DATABASES
 ## Create Database
 
 ```sql
-CREATE DATABASE acme;
+CREATE DATABASE remote;
 ```
 
 ## Delete Database
 
 ```sql
-DROP DATABASE acme;
+DROP DATABASE remote;
 ```
 
 ## Select Database
 
 ```sql
-USE acme;
+USE remote;
 ```
 
 ## Create Table
@@ -148,13 +148,13 @@ SHOW TABLES;
 ## Insert Row / Record
 
 ```sql
-INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Brad', 'Traversy', 'brad@gmail.com', '123456','Massachusetts', 'development', 1, now());
+INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Theo', 'Mashego', 'Theo@gmail.com', '12345678','Mbombela', 'Software', 1, now());
 ```
 
 ## Insert Multiple Rows
 
 ```sql
-INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Sara', 'Watson', 'sara@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Jackson', 'will@yahoo.com', '123456', 'Rhode Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
+INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Thabo', 'Zulu', 'Thabo@gmail.com', '123456', 'Johannesburg', 'Graphic', 0, now()), ('Lerato', 'Ndlovu', 'Lerato@gmail.com', '123456', 'Mbombela', 'Software', 0, now()),('Nyasha', 'Maschette', 'Nyasha@gmail.com', '123456', 'Mbombela', 'software', 1, now());
 ```
 
 ## Select
@@ -176,13 +176,13 @@ SELECT * FROM users WHERE is_admin > 0;
 ## Delete Row
 
 ```sql
-DELETE FROM users WHERE id = 6;
+DELETE FROM users WHERE id = 2;
 ```
 
 ## Update Row
 
 ```sql
-UPDATE users SET email = 'freddy@gmail.com' WHERE id = 2;
+UPDATE users SET email = 'Thabo1@gmail.com' WHERE id = 2;
 
 ```
 
