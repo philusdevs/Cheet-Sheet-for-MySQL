@@ -7,7 +7,7 @@
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
 * Xampp           */xampp/mysql/bin*
 
-## Add mysql to your PATH
+## Add mysql to your PATH (MacOS)
 
 ```bash
 # Current Session
@@ -16,7 +16,32 @@ export PATH=${PATH}:/usr/local/mysql/bin
 echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 ```
 
-On Windows - https://www.qualitestgroup.com/resources/knowledge-center/how-to-guide/add-mysql-path-windows/
+## Add mysql to your PATH (Windows)
+
+* Locating mysql.exe:
+
+* Locate your mysql.exe
+
+* The example I will be using has mysql.exe in the below directory:
+C:\Program Files\MySQL\MySQL Server 8.0.29\binClick the start toolbar
+
+* Right click “My Computer”
+
+* Click “Properties”
+
+* Select “Advanced”
+
+* Click “Environment Variables”
+
+* Locate “System variables”
+
+* Select the “Path” variable
+
+* Click “Edit”
+
+* Keep what was before the following the same, and then add the stuff between the quotes to the end:
+
+* …”;C:\Program Files\MySQL\MySQL Server 8.0.29\bin”
 
 ## Login
 
