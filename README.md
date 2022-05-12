@@ -23,7 +23,9 @@ echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 * Locate your mysql.exe
 
 * The example I will be using has mysql.exe in the below directory:
-C:\Program Files\MySQL\MySQL Server 8.0.29\binClick the start toolbar
+C:\Program Files\MySQL\MySQL Server 8.0.29\bin
+
+* Click the start toolbar
 
 * Right click “My Computer”
 
