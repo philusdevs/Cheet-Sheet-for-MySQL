@@ -1,4 +1,4 @@
-# Cheet Sheet for MySQL
+# Cheat Sheet for MySQL
 
 > Help with SQL commands to interact with a MySQL database
 
