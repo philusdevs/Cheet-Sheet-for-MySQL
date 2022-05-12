@@ -94,6 +94,11 @@ DROP USER 'someuser'@'localhost';
 exit;
 ```
 
+## Login With The New User You Created
+```bash
+mysql -u someuser -p
+```
+
 ## Show Databases
 
 ```sql
