@@ -1,7 +1,15 @@
 # Cheat Sheet for MySQL
 
 > Help with SQL commands to interact with a MySQL database
-
+## Download MySQL at mysql.com 
+* Downloads 
+* MySQL Community (GPL) Downloads
+* MySQL Community Server
+## Windows
+* Go to download page
+* Windows (x64,64 bit) MSI installer
+## MacOS
+* Select first option
 ## MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
