@@ -87,8 +87,8 @@ If verification was successful login by typing
 ```bash
 mysql -u root -p
 ```
--u means user in this instance the user is root (which is the current adminstrator which can add other database adminstrators and grant privileges)
--p is password 
+* -u means user in this instance the user is root (which is the current adminstrator which can add other database adminstrators and grant privileges)
+* -p is password. 
 enter the password you have entered during the installation process for the root user.
 
 ## Show Users
