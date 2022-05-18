@@ -1,6 +1,14 @@
-# Cheat Sheet for MySQL
+# MYSQL Tutorial 
 
-> Help with SQL commands to interact with a MySQL database
+The Goal of this task is help you familiarise yourself with some CRUD operation using MySQL
+by the end of this task you should be able to:
+1. Assign a database adminstrator to a database 
+2. Grant Privileges
+3. Populate a database
+4. Perform queries on the database 
+5. Join Tables
+6. Use the Aggregate Function
+
 ## Download MySQL at mysql.com 
 * Downloads 
 * MySQL Community (GPL) Downloads
@@ -8,12 +16,20 @@
 ## Windows
 * Go to download page
 * Windows (x64,64 bit) MSI installer
+
+## Troubleshooting windows installation 
+Some computers/laptops might not be able to download 
+MySQL because their system might not be update
+additonally click on this download link to download the require dependency
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+
 ## MacOS
 * Select first option
 ## MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
 * Xampp           */xampp/mysql/bin*
+
 
 ## Add mysql to your PATH (MacOS)
 
@@ -22,39 +38,52 @@
 export PATH=${PATH}:/usr/local/mysql/bin
 # Permanantly
 echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
+
 ```
 
 ## Add mysql to your PATH (Windows)
 
-* Locating mysql.exe:
-
-* Locate your mysql.exe
-
-* The example I will be using has mysql.exe in the below directory:
-C:\Program Files\MySQL\MySQL Server 8.0.29\bin
-
-* Click the start toolbar
-
-* Right click “My Computer”
-
+* Go This PC
+* Select Windows (C:)
+* Select Program Files
+* Select MySQL
+* Select MySQL Server 8.0.29
+* Select bin
+* Copy the directory path 
+  C:\Program Files\MySQL\MySQL Server 8.0.29\bin
+* Right click “This PC”
 * Click “Properties”
-
 * Select “Advanced”
-
 * Click “Environment Variables”
-
 * Locate “System variables”
+* Click "New”
+* Type “Path” in the first entry 
+* Paste the directory path you copied in the second entry
+* Select "Ok"
 
-* Select the “Path” variable
 
-* Click “Edit”
+## Opening Command Line
+Open the Application Command Line. You can find it by searching CMD on the search bar at the bottom left hand corner of your screen (windows 10) alternatively you can find it by searching CMD using the search icon on your task bar (windows 11)
 
-* Keep what was before the following the same, and then add the stuff between the quotes to the end:
+## Verify MySQL Installation
+In the command line type
 
-* …”;C:\Program Files\MySQL\MySQL Server 8.0.29\bin”
+```bash
+mysql -- version
+```
+you shoudld receive output similar to this
+```bash
+mysql  Ver 8.0.29 for macos12 on x86_64 (MySQL Community Server - GPL)
+```
+if you receive 
+```bash
+not recognized as an internal or external command
+```
+please revisit the installation process and try installing MySQL again
 
 ## Login
 
+If verification was successful login by typing
 ```bash
 mysql -u root -p
 ```
@@ -75,6 +104,8 @@ CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 
 ```sql
 GRANT ALL PRIVILEGES ON * . * TO 'someuser'@'localhost';
+```
+```sql
 FLUSH PRIVILEGES;
 ```
 
