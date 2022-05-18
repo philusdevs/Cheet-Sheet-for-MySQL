@@ -71,7 +71,7 @@ In the command line type
 ```bash
 mysql -- version
 ```
-you shoudld receive output similar to this
+you shoudld receive an output similar to this
 ```bash
 mysql  Ver 8.0.29 for macos12 on x86_64 (MySQL Community Server - GPL)
 ```
