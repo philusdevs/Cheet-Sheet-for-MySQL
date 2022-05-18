@@ -28,7 +28,7 @@ https://aka.ms/vs/17/release/vc_redist.x64.exe
 ## MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
-* Xampp           */xampp/mysql/bin*
+
 
 
 ## Add mysql to your PATH (MacOS)
