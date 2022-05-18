@@ -403,8 +403,10 @@ SELECT age, COUNT(age) FROM users GROUP BY age HAVING count(age) >=2;
 
 # Additional Exericise
 
-Here's a model of what you now have loaded in the `world` database. 
+Here's a model of what you now have loaded in the your database. 
 <img src="http://i.imgur.com/BirbWW5.png" />
+
+Answer by showing the query:
 
 * Using `count`, get the number of cities in the USA
 * Find out what the population and average life expectancy for people in Argentina (ARG) is
