@@ -1,6 +1,6 @@
 # MySQL Tutorial 
 
-The Goal of this task is help you familiarise yourself with some CRUD operation using MySQL
+The Goal of this task is to help you familiarise yourself with some CRUD operation using MySQL
 by the end of this task you should be able to:
 1. Assign a database adminstrator to a database 
 2. Grant Privileges
