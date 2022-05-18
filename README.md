@@ -400,3 +400,15 @@ SELECT age, COUNT(age) FROM users WHERE age > 20 GROUP BY age;
 SELECT age, COUNT(age) FROM users GROUP BY age HAVING count(age) >=2;
 
 ```
+
+# Additional Exericise
+
+Here's a model of what you now have loaded in the `world` database. 
+<img src="http://i.imgur.com/BirbWW5.png" />
+
+* Using `count`, get the number of cities in the USA
+* Find out what the population and average life expectancy for people in Argentina (ARG) is
+* Using `IS NOT NULL, ORDER BY, LIMIT`, what country has the highest life expectancy?
+* Using `LEFT JOIN, ON`, what is the capital of Spain (ESP)?
+* Using `LEFT JOIN, ON`, list all the languages spoken in the 'Southeast Asia' region
+* Select 25 cities around the world that start with the letter 'F' in a single SQL query.
