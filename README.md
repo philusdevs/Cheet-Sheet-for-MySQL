@@ -17,7 +17,7 @@ by the end of this task you should be able to:
 * Go to download page
 * Windows (x64,64 bit) MSI installer
 
-## Troubleshooting windows installation 
+## Troubleshooting MySQL windows installation 
 Some computers/laptops might not be able to download 
 MySQL because their system might not be update
 additonally click on this download link to download the required dependency
