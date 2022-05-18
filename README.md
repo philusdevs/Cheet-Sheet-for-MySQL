@@ -1,4 +1,4 @@
-# MYSQL Tutorial 
+# MySQL Tutorial 
 
 The Goal of this task is help you familiarise yourself with some CRUD operation using MySQL
 by the end of this task you should be able to:
@@ -20,7 +20,7 @@ by the end of this task you should be able to:
 ## Troubleshooting windows installation 
 Some computers/laptops might not be able to download 
 MySQL because their system might not be update
-additonally click on this download link to download the require dependency
+additonally click on this download link to download the required dependency
 https://aka.ms/vs/17/release/vc_redist.x64.exe
 
 ## MacOS
