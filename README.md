@@ -10,7 +10,7 @@ by the end of this task you should be able to:
 6. Use the Aggregate Function
 
 
-##USE this below as reference to the task
+## USE this below as reference to the task
 
 ![IMG_3581](https://user-images.githubusercontent.com/98706177/169994236-df35e8ea-38cd-4d02-bc19-5a4ebc61cd85.JPG)
 
